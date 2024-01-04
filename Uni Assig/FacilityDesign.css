@@ -1,0 +1,43 @@
+.fac-images-top,
+.fac-images-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 50vh; 
+    overflow: hidden; 
+}
+
+.fac-images-top img,
+.fac-images-bottom img {
+    width: 500px;
+    height: 300px;
+    max-height: 100%; 
+}
+
+.detail-container {
+    max-width: 800px; 
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.list-container {
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+.list-container {
+    max-width: 800px; 
+    margin: 20px auto;
+}
+
+.Facilities {
+    list-style: none;
+    padding: 0;
+}
+
+.Facilities li {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}

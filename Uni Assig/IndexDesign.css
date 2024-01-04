@@ -1,0 +1,69 @@
+/* CSS for the containers of the pictures and dialog START */
+.content-container {
+    display: flex;
+}
+
+.picture-container {
+    margin: 20px 0;
+}
+
+.picture-container img {
+    max-width: 300px;
+    padding-left: 20px;
+}
+.dialog-box {
+    width: 65%;
+    margin: 20px;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.source-box {
+    width: 33.333333%;
+    height: 600px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+/* CSS for the containers of the pictures and dialog END */
+
+.facilities {
+    background-color: #f0f0f0;
+}
+
+/* Remove the default underline and color from links */
+.box-link{
+    text-decoration: none;
+      color: inherit;
+}
+/* Set hover, and a new color for the link */
+.box-link:hover{
+    color: purple;
+}
+
+
+/*Moving gallery */
+.gallery-container {
+    overflow: hidden;
+    margin-top: 50px;
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+.gallery-slide {
+    display: flex;
+    animation: slide 10000s linear infinite;
+}
+
+.gallery-slide img {
+    height: 300px; 
+    width: auto;
+    margin-right: 10px; 
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-100% - 10px)); }
+}
+

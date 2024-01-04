@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="BaseDesign.css">
+    <link rel="icon" type="image/x-icon" href="Pictures/website-images-assets/logo.png">
+    <link rel="stylesheet" href="ContactInfo.css">
+</head>
+<body>
+    
+      <header>
+        <h1 class="hometitle">Contact Us</h1>
+        <ul class="menuNavBar">
+        <li class="menuSelection"><a class="linkClass" href="index.html">Home</a></li>
+        <li class="menuSelection"><a class="linkClass" href="computingCourses.html">Computing Courses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="designCourses.html">Design Courses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="facilities.html">Facilities</a></li>
+        <li class="menuSelection"><a class="linkClass" href="learningResources.html">Learning Resources</a></li>
+        <li class="menuSelection"><a class="linkClass" href="inform.html">Information For Staff</a></li>
+        <li class="menuSelection"><a class="linkClass" href="informStud.html">Information For Students</a></li>
+        <li class="menuSelection"><a class="linkClass" href="wBusinesses.html">Working With Businesses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+
+    <main>
+        <form id="contactForm" action="#" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+        <p>Feel free to reach out to us for any inquiries or feedback!</p>
+        <div id="contactInfo">
+            <h2>Contact Information</h2>
+            <p>Cantor College</p>
+            <p>Main Street</p>
+            <p>Sheffield</p>
+            <p>SC4 2BB</p>
+            <p>Tel: (01321) 2340 235</p>
+            <p>Fax: (01321) 2340 236</p>
+            <p>Email: <a href="mailto:info@cantorcollege.ac.uk">info@cantorcollege.ac.uk</a></p>
+        </div>
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="footer-content">
+            <div class="footer-logo">Cantor College</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="learningResources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Cantor College. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </footer>
+    <script src="contact.js"></script>
+
+</body>
+</html>

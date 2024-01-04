@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="BaseDesign.css">
+    <link rel="icon" type="image/x-icon" href="Pictures/website-images-assets/logo.png">
+    <link rel="stylesheet" href="LearningResource.css">
+</head>
+<body>
+    <header>
+        <h1 class="hometitle">Information for Students</h1>
+<ul class="menuNavBar">
+        <li class="menuSelection"><a class="linkClass" href="index.html">Home</a></li>
+        <li class="menuSelection"><a class="linkClass" href="computingCourses.html">Computing Courses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="designCourses.html">Design Courses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="facilities.html">Facilities</a></li>
+        <li class="menuSelection"><a class="linkClass" href="learningResources.html">Learning Resources</a></li>
+        <li class="menuSelection"><a class="linkClass" href="inform.html">Information For Staff</a></li>
+        <li class="menuSelection"><a class="linkClass" href="informStud.html">Information For Students</a></li>
+        <li class="menuSelection"><a class="linkClass" href="wBusinesses.html">Working With Businesses</a></li>
+        <li class="menuSelection"><a class="linkClass" href="contact.html">Contact Us</a></li>
+      </ul>
+    </header>
+    <main>
+        <h2 onclick="toggleVisibility('academicInfo')">Academic Information</h2>
+        <ul id="academicInfo">
+    <li>Faculties - Links to all the Faculty and Departmental Offices with information on staff, courses and events.</li>
+    <li>A to Z List of Departments - Departmental Homepages.</li>
+    <li>Library and Learning Resource Services - Information on LLRS services, access to the on-line catalogue, 
+        links to external academic resources and guides to using IT to support your studies.</li>
+    <li>Our Academic Partners - Information on College links.</li>
+    <li>Research - links to the Research Centres, guide to research opportunities and help on finding research funding.</li>
+</Ul>
+<h2 onclick="toggleVisibility('adminSupport')">Administrative Support</h2>
+        <ul id="adminSupport">
+    <li>Academic Registry - Information provided by the Academic Registry, including Academic Calendars, Academic Regulations, 
+        Module Catalogue, information on award ceremonies and tuition fees.</li>
+        <li>Student Guide to Regulations - General and Academic Regulations, World Wide Web Code of Practice, Rules Governing the Use of LLRS facilities.
+            Student Services</li>
+            <li>Advisory and Counselling Centre - academic advice, help for international students, careers guidance, personal counselling, student 
+                loans and access funds and support for students with disabilities/learning difficulties.
+            </li>
+            <li>Health Centre - guide to the services provided by the University Health Centre.
+            </li>
+            <li>Multi-Faith Centre - information regarding the work of the Multi-Faith Centre.</li>
+            <li>Pre-School Centre - contact information regarding the University's child care facilities.</li>
+            <li>Sports Centre - booking arrangements and facilities.</li>
+</ul>
+<img src="Pictures/website-images-assets/moving-gallery-pic1.jpg" alt="College Map">
+<h2 onclick="toggleVisibility('uniServices')">University Services</h2>
+<ul id="uniServices">
+    <li>Catering Services - guide to the catering facilities on campus.</li>
+    <li>Printing Services - information regarding services provided for students.</li>
+    <li>Student Accommodation Services - guide to University Accommodation and help on finding accommodation in the private sector.</li>
+</ul>
+
+<h2 onclick="toggleVisibility('lifeAtUni')">Life at the University</h2>
+        <ul id="lifeAtUni">
+    <li>Arts Centre - what's on at the University's arts venues.</li>
+    <li>Students' Union - events and services provided by the Students' Union.</li>
+    <li>University Guide - a full guide to life at the University.</li>
+    <li>Campus Navigator - help with finding your way around campus.</li>
+</ul>
+<h2 onclick="toggleVisibility('communications')">Communications</h2>
+<ul id="communications">
+    <li>Noticeboards - General, Classified, Events and Alumni noticeboards.</li>
+    <li>Student Email Search - database of student email addresses</li>
+    <li>Staff Search - database of staff email addresses.</li>
+    <li>A to Z List of Services - full A to Z list of University Services.</li>
+</ul>
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="footer-content">
+            <div class="footer-logo">Cantor College</div>
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="learningResources.html">Resources</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            </div>
+            <div class="footer-bottom">
+            <p>&copy; 2024 Cantor College. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </footer>
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            element.style.display = (element.style.display === 'none' || element.style.display === '') ? 'block' : 'none';
+        }
+    </script>
+</html>
